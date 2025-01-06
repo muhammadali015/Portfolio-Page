@@ -40,7 +40,7 @@ function Projects() {
               title="Bazzar Shoping Store "
               description="A Ecommerce website to buy products of daily life.Shoping website to buy anything "
               ghLink="https://github.com/muhammadali015/"
-              demoLink="https://www.figma.com/proto/2IhLFldUIlN8R0uI4YecGy?node-id=0-1&t=6LHvRpSt2zJUQ009-6"
+              demoLink="https://bazaar-application-final-deployment.vercel.app/"
             />
           </Col>
 
