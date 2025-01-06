@@ -32,6 +32,19 @@ function Projects() {
             />
           </Col>
 
+       <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Bazzar Shoping Store "
+              description="A Ecommerce website to buy thing .Shoping website"
+              ghLink="https://github.com/muhammadali015/"
+              demoLink="https://www.figma.com/proto/2IhLFldUIlN8R0uI4YecGy?node-id=0-1&t=6LHvRpSt2zJUQ009-6"
+            />
+          </Col>
+
+
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -42,6 +55,9 @@ function Projects() {
               demoLink="https://www.figma.com/proto/2IhLFldUIlN8R0uI4YecGy?node-id=0-1&t=6LHvRpSt2zJUQ009-6"
             />
           </Col>
+
+
+                
 
           <Col md={4} className="project-card">
             <ProjectCard
