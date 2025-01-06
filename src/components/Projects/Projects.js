@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/flight.png";
-import ecom from "../../Assets/Projects/360_F_241390620_hihddCG15N7I8HyPWUiv1eUH85D2SN9z.png";
+import ecom from "../../Assets/Projects/360_F_241390620_hihddCG15N7I8HyPWUiv1eUH85D2SN9z.jpg";
 
 import editor from "../../Assets/Projects/poxdex.png";
 import chatify from "../../Assets/Projects/rent.png";
