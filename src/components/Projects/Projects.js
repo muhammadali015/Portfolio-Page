@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/flight.png";
+import ecom from "../../Assets/Projects/360_F_241390620_hihddCG15N7I8HyPWUiv1eUH85D2SN9z.png";
 
 import editor from "../../Assets/Projects/poxdex.png";
 import chatify from "../../Assets/Projects/rent.png";
@@ -34,10 +35,10 @@ function Projects() {
 
        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ecom}
               isBlog={false}
               title="Bazzar Shoping Store "
-              description="A Ecommerce website to buy thing .Shoping website"
+              description="A Ecommerce website to buy products of daily life.Shoping website to buy anything "
               ghLink="https://github.com/muhammadali015/"
               demoLink="https://www.figma.com/proto/2IhLFldUIlN8R0uI4YecGy?node-id=0-1&t=6LHvRpSt2zJUQ009-6"
             />
