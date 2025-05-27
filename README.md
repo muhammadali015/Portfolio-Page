@@ -1,4 +1,4 @@
-
+<!-- CV updated: This is a test update comment. -->
 This project was built using these technologies.
 
 - React.js
