@@ -99,7 +99,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://instagram/vixuals.1"
+                href="https://www.instagram.com/vixuals.1?igsh=MXRsbWM0OW9jeDd4aw=="
                 target="_blank"
                 rel="noreferrer"
               >

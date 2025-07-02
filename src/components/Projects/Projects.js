@@ -2,13 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/flight.png";
-import ecom from "../../Assets/Projects/360_F_241390620_hihddCG15N7I8HyPWUiv1eUH85D2SN9z.jpg";
+import avatar from "../../Assets/avatar.png";
+import Shoping from "../../Assets/Projects/shopping.png";
+import rent from "../../Assets/Projects/rent.png";
+import hostal from "../../Assets/Projects/hostal.png";
+import flight from "../../Assets/Projects/flight.webp";
+import poxdex from "../../Assets/Projects/poxdex.png";
+import ludo from "../../Assets/Projects/ludo.jpeg";
+import weather from "../../Assets/Projects/weather.jpeg";
+import pdf from "../../Assets/Muhammad_ALI_CV.pdf";
 
-import editor from "../../Assets/Projects/poxdex.png";
-import chatify from "../../Assets/Projects/rent.png";
-
-import bitsOfCode from "../../Assets/Projects/hostel.png";
 
 function Projects() {
   return (
@@ -24,18 +27,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rent}
               isBlog={false}
               title="Rent A Car"
-              description="Rent a car system"
+              description="Rent a car system, this is a website where you can rent a car and you can also see the cars that are available for rent."
               ghLink="https://github.com/muhammadali015/Rent-a-car"
-              demoLink="https://github.com/muhammadali015/"
             />
           </Col>
 
        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ecom}
+              imgPath={Shoping}
               isBlog={false}
               title="Bazzar Shoping Store "
               description="A Ecommerce website to buy products of daily life.Shoping website to buy anything "
@@ -44,11 +46,9 @@ function Projects() {
             />
           </Col>
 
-
-                
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hostal}
               isBlog={false}
               title="Hostel Hub"
               description="Hostel bookking app for newcommers student that are new in the city of university"
@@ -57,32 +57,46 @@ function Projects() {
             />
           </Col>
 
-
-                
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={poxdex}
               isBlog={false}
               title="Poxdex"
               description="THis a game"
               ghLink="https://github.com/muhammadali015/Pokedex."
-    
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ludo}
+              isBlog={false}
+              title="Ludo& Checker game"
+              description="THis a game"
+              ghLink="https://github.com/muhammadali015/Pokedex."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                  imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description="THis a game"
+              ghLink="https://github.com/muhammadali015/Pokedex."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flight}
               isBlog={false}
               title="Flight Mangement System"
               description="Flight booking system to save you from stading in long queues too buy the tickets"
               ghLink="https://github.com/muhammadali015/Pokedex."
-            
             />
           </Col>
 
-    
         </Row>
       </Container>
     </Container>
